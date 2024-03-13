@@ -7,11 +7,11 @@ export default function Footer(){
 return(
     <footer className={styles.rodape}>
 
-        <h1>Todos direitos reservados ©</h1>
+        <h1>Todos direitos reservados © </h1>
         <a href="https://ead.ifms.edu.br/"/>
         <Image 
-        width={50}
-        height={50}
+        width={100}
+        height={25}
         src="https://ead.ifms.edu.br/theme/moove/pix/moodle-logo-white.png"
         />
     </footer>
