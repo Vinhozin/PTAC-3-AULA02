@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 export default async function Home() {
-  const resposta = await fetch("http://localhost:3000/api",{
+  const resposta = await fetch("https://back-end-ifms-pablos-projects-2b28625d.vercel.app/campi",{
     next: {
       revalidate: 1
     }
@@ -14,8 +14,7 @@ export default async function Home() {
         campus.map((campi) =>
           <div>
             {campi.id}
-            <p>{campi.nome_campi}</p>
-            <img src='{campi.imagem_url}'></img>
+            <p>{campi.nome_campus}</p>
           </div>
         )
       }
