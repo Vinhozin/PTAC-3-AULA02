@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Image from "next/image";
 export default async function Home() {
   const resposta = await fetch("http://localhost:3000/api",{
     next: {
@@ -11,7 +13,9 @@ export default async function Home() {
       {
         campus.map((campi) =>
           <div>
-            <p>(campi.nome_campi)</p>
+            {campi.id}
+            <p>{campi.nome_campi}</p>
+            <img src='{campi.imagem_url}'></img>
           </div>
         )
       }
