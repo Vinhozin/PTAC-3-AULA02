@@ -16,7 +16,7 @@ export default async function Home() {
             {campi.id}
             <p>{campi.nome_campus}</p>
           </div>
-        )
+        ) 
       }
     </main>
   )

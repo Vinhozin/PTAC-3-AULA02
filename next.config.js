@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {}
-
+    
 module.exports = {
-    images: {
+    image: {
         domains: ['ifms.edu.br', 'ead.ifms.edu.br'],
     },
-};
+};    
