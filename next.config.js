@@ -2,7 +2,7 @@
 const nextConfig = {}
     
 module.exports = {
-    image: {
-        domains: ['ifms.edu.br', 'ead.ifms.edu.br'],
+    images: {
+        domains: ['www.ifms.edu.br', 'ead.ifms.edu.br'],
     },
 };    
